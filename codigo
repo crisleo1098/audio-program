@@ -1,0 +1,17 @@
+# Cargar las librerías requeridas para procesar el audio usando SciPy
+
+# SciPy para analizar el archivo de audio
+import scipy.io.wavfile as wav
+
+# NumPy para operar sobre el arreglo de datos
+import numpy as np
+
+# MatPlotLib para visualizar el gráfico
+import matplotlib.pyplot as plt
+plt.rcParams["figure.figsize"] = [10, 5]
+
+# IPython.display para reproducir audio directamente en el notebook
+from IPython.display import Audio
+
+# Reproducir los audios a cargar
+Audio("\Audios\epic-hybrid-logo-157092.wav")
